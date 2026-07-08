@@ -37,18 +37,16 @@ const starter = {
   name:        "STARTER",
   base:        "Thailand 🇹🇭",
   role:        "Computer Engineering @ Chulalongkorn University",
-  focus:       ["Computer Vision", "3D Graphics", "Biomedical Tech", "AI / ML"],
-  languages:   ["Python", "Swift", "TypeScript", "Java", "C++"],
-  currently:   "Markerless jaw-motion tracking for digital orthodontics (Modjaw-class)",
-  alsoBuilding:"Real-world software for real Thai businesses & clinics",
-  mindset:     "Ship on real data, measure, iterate.",
+  focus:       ["Computer Vision", "AI / ML", "Biomedical Tech"],
+  languages:   ["Python", "TypeScript", "Java", "C++"],
+  currently:   "Jaw-motion tracking for digital orthodontics"
 };
 ```
 
 - 🦷 Building an end-to-end **jaw-motion tracking pipeline** for digital dentistry — computer vision, 3D reconstruction, and an iOS TrueDepth capture app
 - 🧊 Shipped a full **business-management system** for a family-run ice factory (Next.js + MongoDB)
 - 🖨️ Designing **3D-printed fiducial markers** in Blender and validating print geometry against my own detectors
-- 🌱 From my first hand-coded HTML page to production systems tested on real clinical data
+- 🌱 From my first hand-coded to production systems tested on real clinical data
 
 ---
 
@@ -59,7 +57,6 @@ const starter = {
 **Languages**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
@@ -78,10 +75,8 @@ const starter = {
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 </div>
 
@@ -127,33 +122,11 @@ A Java exploration of detecting and mapping real-world colour into the digital d
 
 <br/>
 
-### 💼 [Business Website](https://github.com/starter2157/Next-js-BusinessWebsite)
-A modern, responsive marketing site built with Next.js + TypeScript.
-
-`Next.js` · `TypeScript`
-
-[🔗 Demo](https://next-js-business-website.vercel.app) · [📂 Repo](https://github.com/starter2157/Next-js-BusinessWebsite)
-
   </td>
   </tr>
 </table>
 
 <sub>🐾 Also: [nextjs-pets](https://github.com/starter2157/nextjs-pets) · [express-pets](https://github.com/starter2157/express-pets) — full-stack CRUD practice · 🌟 [NewjeansWebsite](https://github.com/starter2157/NewjeansWebsite) — where it all started (my first hand-coded HTML/CSS/JS site)</sub>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=starter2157&show_icons=true&hide_border=true&title_color=2563eb&icon_color=06b6d4&text_color=808080&bg_color=00000000" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=starter2157&layout=compact&hide_border=true&title_color=2563eb&text_color=808080&bg_color=00000000" alt="Top languages" />
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=starter2157&hide_border=true&ring=2563eb&fire=06b6d4&currStreakLabel=2563eb&background=00000000" alt="Streak" />
-
-</div>
 
 ---
 
@@ -169,8 +142,6 @@ A modern, responsive marketing site built with Next.js + TypeScript.
 </a>
 
 <br/><br/>
-
-<i>“STARTER” — because every great build begins with one.</i>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:2563eb,100:6d28d9&height=100&section=footer" alt="footer" />
 
