@@ -20,12 +20,6 @@
 
 <br/>
 
-<!-- ── Quick badges ───────────────────────────────────────── -->
-<img src="https://komarev.com/ghpvc/?username=starter2157&label=Profile%20views&color=2563eb&style=flat" alt="Profile views" />
-<a href="https://github.com/starter2157?tab=followers">
-  <img src="https://img.shields.io/github/followers/starter2157?label=Followers&style=flat&color=6d28d9" alt="Followers" />
-</a>
-
 </div>
 
 ---
