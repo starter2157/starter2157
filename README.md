@@ -93,6 +93,37 @@ const starter = {
   <tr>
     <td width="50%" valign="top">
 
+### ⚽ Goalkeeper Dive Prediction — DPST research
+**Predicting which way a goalkeeper will dive** during a penalty kick, straight from an image. My **DPST** scholarship research project (A.Y. 2566 / 2023).
+
+- **Pose estimation** extracts the keeper's key body joints
+- A **neural network** classifies dive direction → **71.08% accuracy**
+- Image processing + ML, end to end
+
+`Python` · `Pose Estimation` · `Neural Network`
+
+📄 *Project report — DPST, Computer science branch*
+
+  </td>
+    <td width="50%" valign="top">
+
+### 📷 [HardwareSynLab-Project](https://github.com/Sherneys/HardwareSynLab-Project) — FPGA video pipeline
+**Real-time camera → VGA video processor on a Basys 3 FPGA.** Computer vision, but in hardware.
+
+- **OV7670 camera** capture, configured over an SCCB (I²C-like) bus
+- Dual-clock **dual-port BRAM** frame buffer
+- **Switchable filters** — grayscale, colour inversion, channel isolation, threshold — live via board switches
+- Verified with **5 Verilog testbenches** (all passing)
+
+`Verilog` · `Basys 3` · `OV7670` · `VGA` · `Vivado`
+
+[📂 Repo](https://github.com/Sherneys/HardwareSynLab-Project)
+
+  </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+
 ### 🧊 [d-ice](https://github.com/starter2157/d-ice) — Dee-Ice factory ERP
 A private **business-management system** for the *Dee-Ice* ice factory (Pathio, Chumphon 🇹🇭). Employees, stock, and finances in one internal tool.
 
@@ -107,20 +138,21 @@ A private **business-management system** for the *Dee-Ice* ice factory (Pathio, 
   </td>
     <td width="50%" valign="top">
 
-### 🎨 [Color-in-RealLife](https://github.com/starter2157/Color-in-RealLife)
-A Java exploration of detecting and mapping real-world colour into the digital domain — early roots of my computer-vision work.
+### 🎮 [Color-in-RealLife](https://github.com/starter2157/Color-in-RealLife) — JavaFX life-sim game
+A turn-based **life-simulation game**: move between home, school, store, theatre and work, climb the career ladder (**Newbie → Director**), buy and use items, and manage your stats to the finish line.
 
-`Java` · `Image Processing`
+- Clean **OOP design** — `Buyable` / `Eatable` / `Workable` interfaces, inheritance, enums
+- JavaFX GUI + sound, **JUnit-tested** game logic
 
-[📄 Report](https://docs.google.com/document/d/1BwXLTBmkVSsNIOb1sTxdcMJy2RWdxaz-EHn4x7h8oX4/edit) · [📂 Repo](https://github.com/starter2157/Color-in-RealLife)
+`Java` · `JavaFX` · `OOP` · `Gradle`
 
-<br/>
+[📂 Repo](https://github.com/starter2157/Color-in-RealLife)
 
   </td>
   </tr>
 </table>
 
-<sub>🐾 Also: [nextjs-pets](https://github.com/starter2157/nextjs-pets) · [express-pets](https://github.com/starter2157/express-pets) — full-stack CRUD practice · 🌟 [NewjeansWebsite](https://github.com/starter2157/NewjeansWebsite) — where it all started (my first hand-coded HTML/CSS/JS site)</sub>
+<sub>🌐 Also: [Next-js-BusinessWebsite](https://github.com/starter2157/Next-js-BusinessWebsite) — a live business site · [nextjs-pets](https://github.com/starter2157/nextjs-pets) · [express-pets](https://github.com/starter2157/express-pets) — full-stack CRUD practice · 🌟 [NewjeansWebsite](https://github.com/starter2157/NewjeansWebsite) — where it all started (my first hand-coded HTML/CSS/JS site)</sub>
 
 ---
 
