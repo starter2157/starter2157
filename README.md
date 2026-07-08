@@ -13,7 +13,7 @@
 <!-- ── Typing tagline ─────────────────────────────────────── -->
 <a href="https://github.com/starter2157">
   <img
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=2563EB&center=true&vCenter=true&width=650&lines=Computer+Vision+%C2%B7+3D+Graphics+%C2%B7+Biomedical+Tech;Python+%C2%B7+TypeScript+%C2%B7+Java+%C2%B7+C%2B%2B;Building+at+the+edge+of+engineering+%26+medicine"
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=2563EB&center=true&vCenter=true&width=650&lines=Computer+Vision+%C2%B7+AI+/+ML+%C2%B7+Biomedical+Tech;Python+%C2%B7+TypeScript+%C2%B7+Java+%C2%B7+C%2B%2B;"
     alt="Typing tagline"
   />
 </a>
