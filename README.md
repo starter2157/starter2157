@@ -13,7 +13,7 @@
 <!-- ── Typing tagline ─────────────────────────────────────── -->
 <a href="https://github.com/starter2157">
   <img
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=2563EB&center=true&vCenter=true&width=650&lines=Computer+Vision+%C2%B7+AI+/+ML+%C2%B7+Biomedical+Tech;Python+%C2%B7+TypeScript+%C2%B7+Java+%C2%B7+C%2B%2B;"
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=2563EB&center=true&vCenter=true&width=650&lines=Computer+Vision+%C2%B7+AI+/+ML+%C2%B7+Biomedical+Tech;Full-Stack+Web+%C2%B7+Bioinformatics+RAG;Python+%C2%B7+TypeScript+%C2%B7+Java+%C2%B7+C%2B%2B;"
     alt="Typing tagline"
   />
 </a>
@@ -31,16 +31,22 @@ const starter = {
   name:        "STARTER",
   base:        "Thailand 🇹🇭",
   role:        "Computer Engineering @ Chulalongkorn University",
-  focus:       ["Computer Vision", "AI / ML", "Biomedical Tech"],
+  focus:       ["Computer Vision", "AI / ML", "Biomedical Tech", "Full-Stack Web"],
   languages:   ["Python", "TypeScript", "Java", "C++"],
-  currently:   "Jaw-motion tracking for digital orthodontics"
+  currently:   [
+    "HKTutor — tutor-booking platform (Next.js + NestJS)",
+    "BioProt — dual-retrieval RAG for protein function",
+    "Jaw-motion tracking for digital orthodontics"
+  ]
 };
 ```
 
+- 📓 Building the **messaging API** for **HKTutor**, a tutor-booking platform, with a ten-plus-person team (NestJS + Prisma + PostgreSQL)
+- 🧬 Working on **BioProt** — a dual-retrieval RAG pipeline that combines **sequence** and **structure** evidence for protein-function research
 - 🦷 Building an end-to-end **jaw-motion tracking pipeline** for digital dentistry — computer vision, 3D reconstruction, and an iOS TrueDepth capture app
 - 🧊 Shipped a full **business-management system** for a family-run ice factory (Next.js + MongoDB)
 - 🖨️ Designing **3D-printed fiducial markers** in Blender and validating print geometry against my own detectors
-- 🌱 From my first hand-coded to production systems tested on real clinical data
+- 🌱 From my first hand-coded website to production systems tested on real clinical data
 
 ---
 
@@ -70,9 +76,51 @@ const starter = {
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 </div>
+
+---
+
+## 🔨 Currently Building
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+
+### 📓 [HKTutor](https://github.com/Sitta-C/HKTutor) — Tutor-booking platform
+**A full-stack marketplace where students find tutors and book lessons** — built as a pnpm monorepo by a ten-plus-person team, with a notebook-themed, Thai/English UI.
+
+- **My part — the messaging API:** conversation endpoints, **cursor-paged** conversation lists with unread counts, message history paging, and **recipient-only read receipts**, covered by e2e tests
+- **Platform:** tutor discovery, availability with overnight and multi-day slots, student booking, and role-specific dashboards
+- **Auth built in-house:** Argon2id hashes, email verification, short-lived JWTs with **rotating refresh sessions** and reuse detection
+
+`Next.js 16` · `React 19` · `Tailwind v4` · `NestJS 11` · `Prisma` · `PostgreSQL` · `Docker`
+
+[📂 Repo](https://github.com/Sitta-C/HKTutor)
+
+  </td>
+    <td width="50%" valign="top">
+
+### 🧬 [BioProt](https://github.com/splexmus/BioProt) — Dual-retrieval RAG for protein function
+**Predicting what a protein does from two independent evidence channels** — sequence homology and 3D structure — instead of collapsing them into one score. *Early stage: Phase 1 proof of concept.*
+
+- **Two retrievers:** a sequence branch (eggNOG / MMseqs2) and a structure branch (AlphaFold DB models searched with Foldseek)
+- **Cross-modal agreement:** every candidate function is labelled `CONSENSUS`, `SEQUENCE_ONLY`, `STRUCTURE_ONLY` or `CONFLICT` — conflicts are kept as evidence, never averaged away
+- **Reproducible by design:** typed evidence schemas, versioned normalization, and provenance for every run
+- **Roadmap:** literature RAG, citation-verified LLM reports, and calibrated confidence
+
+`Python` · `Pydantic` · `Typer` · `pytest` · `Bioinformatics`
+
+[📂 Repo](https://github.com/splexmus/BioProt)
+
+  </td>
+  </tr>
+</table>
 
 ---
 
@@ -93,20 +141,6 @@ const starter = {
   <tr>
     <td width="50%" valign="top">
 
-### ⚽ Goalkeeper Dive Prediction — DPST research
-**Predicting which way a goalkeeper will dive** during a penalty kick, straight from an image. My **DPST** scholarship research project (A.Y. 2566 / 2023).
-
-- **Pose estimation** extracts the keeper's key body joints
-- A **neural network** classifies dive direction → **71.08% accuracy**
-- Image processing + ML, end to end
-
-`Python` · `Pose Estimation` · `Neural Network`
-
-📄 *Project report — DPST, Computer science branch*
-
-  </td>
-    <td width="50%" valign="top">
-
 ### 📷 [HardwareSynLab-Project](https://github.com/Sherneys/HardwareSynLab-Project) — FPGA video pipeline
 **Real-time camera → VGA video processor on a Basys 3 FPGA.** Computer vision, but in hardware.
 
@@ -120,8 +154,6 @@ const starter = {
 [📂 Repo](https://github.com/Sherneys/HardwareSynLab-Project)
 
   </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
 
 ### 🧊 [d-ice](https://github.com/starter2157/d-ice) — Dee-Ice factory ERP
@@ -136,21 +168,10 @@ A private **business-management system** for the *Dee-Ice* ice factory (Pathio, 
 [📂 Repo](https://github.com/starter2157/d-ice)
 
   </td>
-    <td width="50%" valign="top">
-
-### 🎮 [Color-in-RealLife](https://github.com/starter2157/Color-in-RealLife) — JavaFX life-sim game
-A turn-based **life-simulation game**: move between home, school, store, theatre and work, climb the career ladder (**Newbie → Director**), buy and use items, and manage your stats to the finish line.
-
-- Clean **OOP design** — `Buyable` / `Eatable` / `Workable` interfaces, inheritance, enums
-- JavaFX GUI + sound, **JUnit-tested** game logic
-
-`Java` · `JavaFX` · `OOP` · `Gradle`
-
-[📂 Repo](https://github.com/starter2157/Color-in-RealLife)
-
-  </td>
   </tr>
 </table>
+
+<sub>🕰️ Earlier work: ⚽ **Goalkeeper Dive Prediction** — my DPST research (2023): pose estimation + a neural network predicting penalty-kick dive direction, 71.08% accuracy · 🎮 [Color-in-RealLife](https://github.com/starter2157/Color-in-RealLife) — a JavaFX turn-based life-sim game with JUnit-tested OOP logic</sub>
 
 <sub>🌐 Also: [Next-js-BusinessWebsite](https://github.com/starter2157/Next-js-BusinessWebsite) — a live business site · [nextjs-pets](https://github.com/starter2157/nextjs-pets) · [express-pets](https://github.com/starter2157/express-pets) — full-stack CRUD practice · 🌟 [NewjeansWebsite](https://github.com/starter2157/NewjeansWebsite) — where it all started (my first hand-coded HTML/CSS/JS site)</sub>
 
