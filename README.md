@@ -13,7 +13,7 @@
 <!-- ── Typing tagline ─────────────────────────────────────── -->
 <a href="https://github.com/starter2157">
   <img
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=2563EB&center=true&vCenter=true&width=650&lines=Computer+Vision+%C2%B7+AI+/+ML+%C2%B7+Biomedical+Tech;Full-Stack+Web+%C2%B7+Bioinformatics+RAG;Python+%C2%B7+TypeScript+%C2%B7+Java+%C2%B7+C%2B%2B;"
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=2563EB&center=true&vCenter=true&width=650&lines=Computer+Vision+%C2%B7+AI+/+ML+%C2%B7+MedTech;Full-Stack+Web+%C2%B7+Bioinformatics+RAG;Python+%C2%B7+TypeScript+%C2%B7+Java+%C2%B7+C%2B%2B;"
     alt="Typing tagline"
   />
 </a>
@@ -31,7 +31,7 @@ const starter = {
   name:        "STARTER",
   base:        "Thailand 🇹🇭",
   role:        "Computer Engineering @ Chulalongkorn University",
-  focus:       ["Computer Vision", "AI / ML", "Biomedical Tech", "Full-Stack Web"],
+  focus:       ["Computer Vision", "AI / ML", "MedTech", "Full-Stack Web"],
   languages:   ["Python", "TypeScript", "Java", "C++"],
   currently:   [
     "HKTutor — tutor-booking platform (Next.js + NestJS)",
